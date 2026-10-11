@@ -1,6 +1,6 @@
 {
   "name": "bridge-watch-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Zero-dependency MCP stdio bridge for Bridge Watch: 104,209 on-chain address labels + 7 x402-metered tools on Base.",
   "keywords": [
     "mcp",
@@ -38,5 +38,6 @@
     "url": "https://github.com/LakeSky/bridge-watch-mcp/issues"
   },
   "author": "AgentSAPI",
-  "dependencies": {}
+  "dependencies": {},
+  "mcpName": "top.agentsapi/bridge-watch"
 }
