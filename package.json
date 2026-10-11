@@ -1,0 +1,42 @@
+{
+  "name": "bridge-watch-mcp",
+  "version": "0.1.0",
+  "description": "Zero-dependency MCP stdio bridge for Bridge Watch: 104,209 on-chain address labels + 7 x402-metered tools on Base.",
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "x402",
+    "base",
+    "ethereum",
+    "usdc",
+    "address-labels",
+    "crypto",
+    "agent",
+    "llm"
+  ],
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "bin": {
+    "bridge-watch-mcp": "bin/bridge-watch-mcp.js"
+  },
+  "files": [
+    "bin",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LakeSky/bridge-watch-mcp.git"
+  },
+  "homepage": "https://agentsapi.top",
+  "bugs": {
+    "url": "https://github.com/LakeSky/bridge-watch-mcp/issues"
+  },
+  "author": "AgentSAPI",
+  "dependencies": {}
+}
