@@ -74,3 +74,13 @@ You do not need this package if your client speaks HTTP: point it at
 ## License
 
 MIT
+
+
+---
+
+## 0.1.2 (R218, 2026-10-13)
+
+- Fixed LSP `Content-Length` framing on stdin: the previous newline-splitting parser
+  glued a payload to the next frame header, which made the bridge forward invalid
+  JSON (server answered HTTP 400 / JSON-RPC -32700) or silently drop messages.
+- Anonymous free tier is now **1 call per tool per IP per day** across all 7 tools.

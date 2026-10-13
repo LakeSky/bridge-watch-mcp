@@ -1,7 +1,7 @@
 {
   "name": "bridge-watch-mcp",
-  "version": "0.1.1",
-  "description": "Zero-dependency MCP stdio bridge for Bridge Watch: 104,209 on-chain address labels + 7 x402-metered tools on Base.",
+  "version": "0.1.2",
+  "description": "Zero-dependency MCP stdio bridge for Bridge Watch: 104,209 on-chain address labels + 7 x402-metered tools on Base. 1 free anonymous call per tool per IP per day.",
   "keywords": [
     "mcp",
     "modelcontextprotocol",

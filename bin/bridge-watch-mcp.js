@@ -3,6 +3,8 @@
 /**
  * CLI entry: `npx bridge-watch-mcp` runs the stdio bridge.
  * `--tools` prints the live tool list (a quick way to check the server is up).
+ *
+ * R218：帮助文案改为「每个工具各 1 次」，与线上运行时同源（不再写死「3 次 / 2 个工具」）。
  */
 
 const { start, ENDPOINT, VERSION } = require('../index.js');
@@ -23,7 +25,8 @@ Environment:
 MCP client config (Claude Desktop / Cursor / Windsurf ...):
   { "mcpServers": { "bridge-watch": { "command": "npx", "args": ["-y", "bridge-watch-mcp"] } } }
 
-Free tier: 3 anonymous tool calls per IP per day. No arguments needed:
+Free tier: 1 anonymous tool call per tool per IP per day (7 tools, 7 calls/day
+per IP in total). No arguments needed:
   tools/call {"name":"get_label","arguments":{}}
 Paid: send USDC to 0x381cdbb664608bf7b1dd4f9403a572c1c57332c2 on Base,
 then set BRIDGE_WATCH_BEARER=<that address> (100 credits per 1 USDC).
